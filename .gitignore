@@ -1,0 +1,22 @@
+# Ignore the parent directory
+..
+
+# Ignore node_modules if you're using Node.js
+node_modules/
+
+# Ignore log files
+*.log
+
+# Ignore build outputs
+dist/
+build/
+
+# Ignore IDE/editor config files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
