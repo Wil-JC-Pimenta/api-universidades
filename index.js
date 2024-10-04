@@ -1,5 +1,5 @@
 const express = require('express');
-const db = require('./database'); // Certifique-se de que o arquivo database.js está no mesmo diretório
+const db = require('./db/db.js'); // Certifique-se de que o arquivo database.js está no mesmo diretório
 const app = express();
 const port = 3000;
 
@@ -8,7 +8,7 @@ app.use(express.json());
 
 // Rota padrão "/"
 app.get('/', (req, res) => {
-  res.send('API Escolas e Universidades');
+  res.send('Rota Raiz');
 });
 
 // Rota GET "/alunos" - Retorna a lista de alunos
