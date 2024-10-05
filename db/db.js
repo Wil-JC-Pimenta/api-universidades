@@ -1,5 +1,4 @@
-// database.js
-require('dotenv').config(); // Carrega variáveis de ambiente do arquivo .env
+require('dotenv').config(); 
 const { Pool } = require('pg');
 
 const pool = new Pool({
